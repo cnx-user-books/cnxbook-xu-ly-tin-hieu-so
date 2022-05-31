@@ -1,0 +1,34 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>TÍN HIỆU VÀ PHÂN LOẠI TÍN HIỆU</title>
+  <metadata>
+  <md:content-id>m28745</md:content-id><md:title>TÍN HIỆU VÀ PHÂN LOẠI TÍN HIỆU</md:title>
+  <md:abstract>dfdf</md:abstract>
+  <md:uuid>881257f7-222e-4971-b535-5f006eb5f62e</md:uuid>
+</metadata>
+
+<content>
+    <para id="id6018630">Tín hiệu (signal) là sự biến thiên của biên độ theo thời gian. Biên độ có thể là điện áp, dòng điện, công suất, v.v.., nhưng thường được hiểu là điện áp. Ở đây có yếu tố biên độ và yếu tố thời gian. Hình 1.1 là một ví dụ.</para>
+    <para id="id5939946">Tín hiệu có thể do mạch điện tử tạo ra rồi truyền tải trong mạch điện tử hoặc môi trường truyền thông. Trong nhiều trường hợp tín hiệu có nguồn gốc tự nhiên và do một cảm biến (sensor) hay bộ chuyển đổi (transducer) đổi thành tín hiệu điện, ví dụ cái vi âm (microphone) chuyển đổi sự rung động trong không khí thành tín hiệu âm thanh, máy ảnh video (video camera) chuyển đổi ánh sáng và màu sắc của cảnh thành những tín hiệu hình ảnh màu, v.v..</para>
+    <section id="id-608933998324">
+      <title>1 Phân loại tín hiệu</title>
+      <list id="id5939998" list-type="enumerated">
+        <item>Về dạng sóng ta có tín hiệu sin, vuông, xung, răng cưa, v.v..</item>
+        <item>Về tần số là tín hiệu hạ tần, âm tần (AF), cao tần (HF), siêu cao tần (VHF), cực cao tần (UHF), v.v., hoặc đôi khi phát biểu theo bước sóng: sóng rất dài (VLF), sóng dài (LW), sóng trung bình (MW), sóng ngắn (SW), sóng centimet, sóng milimet, sóng vi ba, sóng nanomet, v.v..</item>
+        <item>Về sự liên tục gồm có tín hiệu liên tục (continuous) và gián đoạn (không liên tục) (discontinuous). Liên tục hay gián đoạn là xét về biên độ hoặc thời gian. Ví dụ tín hiệu ở hình 1.1 là liên tục về cả biên độ lẫn thời gian. Tín hiệu ở hình 1.3a được xem như là gián đoạn về biên độ vì sự biến thiên biên độ giữa hai mức 1 và 0 là đột biến (thời gian bằng không). Tín hiệu ở hình 1.3b là gián đoạn về thời gian vì chỉ hiện hữu trong một thời gian ngắn (so với thời gian mà ta quan tâm hay quan sát). Tín hiệu ở hình 1.3a cũng có thể xem như gián đoạn cả về thời gian vì có những lúc tín hiệu có biên độ không .</item>
+        <item>Về dạng sóng hay sự liên tục, người ta còn phân ra tín hiệu tương tự (analog) hay liên tục thời gian (continuous_time) và tín hiệu số (digital) hay rời rạc thời gian (discrete-time). Tín hiệu biến thiên liên tục về biên độ như hình 1.1 là tín hiệu tương tự. Tín hiệu như hình 1.3a là tín hiệu số. </item>
+        <item>Về tính xác định người ta phân ra tín hiệu xác định (deterministic) và tín hiệu ngẫu nhiên (random). Tín hiệu như hình 1.4 là xác định vì có dạng sóng cố định nên từ biên độ ở thời điểm hiện tại ta suy ra biên độ ở bất kỳ thời điểm nào trong quá khứ và tương lai. Tín hiệu như hình 1.2 là ngẫu nhiên theo nghĩa là dạng sóng biến thiên tùy tiện ta không thể tiên đoán được, ví dụ hiện tại biên độ là 10mV thì biên độ 5 giây sau, 2 giờ sau, v.v. sẽ là bao nhiêu là không thể nào biết được. Nhiễu là tín hiệu ngẫu nhiên.</item>
+        <item>Về tính tuần hoàn có tín hiệu tuần hoàn (periodic) có dạng sóng lặp lại sau mỗi chu kỳ T (hình 1.4), và tín hiệu không tuần hoàn (aperiodic) là tín hiệu không có sự lặp lại tức không có chu kỳ (ví dụ hình 1.2 và 1.3b). Nếu sự lặp lại chỉ gần đúng ta có tín hiệu chuẩn tuần hoàn (quasi-periodic).</item>
+      </list>
+      <section id="id-439969602617">
+        <title>Cách phân loại cơ bản</title>
+        <para id="id6474741">Về mặt phân tích thống kê người ta phân loại tín hiệu theo hình 1.5. Theo đó yếu tố dừng (stationary) không dừng (nonstationary) là quan trọng nhất. Tín hiệu dừng là tín hiệu có các trị thống kê (trung bình, hiệu dụng, v.v..) không thay đổi theo thời gian. Điều này áp dụng cho cả tín hiệu xác định lẫn ngẫu nhiên. Tín hiệu không dừng có các trị thống kê thay đổi theo thời gian. Nhiệt nhiễu (ví dụ phát sinh trong một mạch gồm một pin và một điện trở) có thể xem như dừng vì nó có các trị thống kê không thay đổi dù rằng biên độ tức thời biến thiên tùy tiện, lộn xộn. </para>
+        <para id="id6474790">Điện mạng (điện lưới) xoay chiều 220V – 50Hz không thể xem như tuyệt đối dừng vì nó có biên độ, tần số, v.v. thay đổi chậm theo thời gian trong ngày. Trường hợp này là chuẩn dừng (quasi – stationary). Tuy nhiên trong một thời gian ngắn (ví dụ vài giây) điện mạng xem như dừng.</para>
+        <para id="id6474814">Ở giản đồ phân loại hình 1.5, tín hiệu chuyển tiếp (transient) là tín hiệu chỉ hiện hữu trong một thời gian ngắn so với thời gian ta quan tâm (hình 1.3b). Một xung đơn độc cũng là tín hiệu chuyển tiếp.</para>
+      </section>
+    </section>
+    <section id="id-579950840642">
+      <title>1.2 Tín hiệu thực và tín hiệu phức</title>
+      <para id="id5681411">Các đại lượng vật lý tự nhiên kể cả các tín hiệu đều thực (có trị số thực), tuy nhiên nhiều khi toán tử ảo <media id="id6602563" alt=""><image src="graphics1.wmf" mime-type="image/wmf" height="25" width="61"/></media> được đưa vào vì lý do thuận tiện toán học, ví dụ để diễn tả sự khác biệt pha giữa các điện áp, lúc bấy giờ các đại lượng trở nên phức (trong biểu thức có toán tử j) ví dụ như điện áp</para>
+    </section>
+  </content>
+</document>

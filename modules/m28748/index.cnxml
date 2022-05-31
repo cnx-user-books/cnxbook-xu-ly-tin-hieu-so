@@ -1,0 +1,28 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>TÍN HIỆU MŨ PHỨC (SIN PHỨC)</title>
+  <metadata>
+  <md:content-id>m28748</md:content-id><md:title>TÍN HIỆU MŨ PHỨC (SIN PHỨC)</md:title>
+  <md:abstract/>
+  <md:uuid>81fe9197-1747-4274-861b-a983d6971fcc</md:uuid>
+</metadata>
+
+<content>
+    <para id="id6406533">Tín hiệu tương tự cơ bản và thường được đề cập đến nhất là tín hiệu sin mà biểu thức toán học có thể phát biểu theo hàm sin hoặc hàm cosin nhưng hàm cosin thường được dùng (phương trình (1.11)).</para>
+    <para id="id6406546">Đây là tín hiệu sin thực (tức có trị số thực hay là tín hiệu vật lý hiện hữu trên thực tế). Thay vì biểu diễn tín hiệu sin bởi biểu thức theo sin hoặc cosin, người ta dùng hàm mũ phức (còn gọi sin phức) hay vectơ pha (phasor):</para>
+    <para id="id6406573">Một vectơ pha được đặc trưng bởi ba thông số: độ lớn (magnitude) A, pha ban đầu O radian, tần số góc (vận tốc góc) <media id="id1170604722050" alt=""><image src="graphics1.wmf" mime-type="image/wmf" height="18" width="18"/></media> rad/s như tín hiệu sin thông thường (sin thực). Vectơ pha là dạng tọa độ cực của tín hiệu. Vectơ pha tuần hoàn ở góc pha 2 radian hay ở chu kỳ T = 2/<media id="id1170601304056" alt=""><image src="graphics2.wmf" mime-type="image/wmf" height="18" width="18"/></media>. Điều này nhận được khi thế t bằng t +T:</para>
+    <para id="id6406695">trong đó đã dùng</para>
+    <para id="id6406700"> ej2= cos2 + jsin2 = 1(1.23)</para>
+    <section id="id-0589780153196">
+      <title>1.Cách suy tín hiệu sin thực từ tín hiệu sin phức</title>
+      <para id="id6064974">Vectơ pha (1.22) có thể liên hệ với tín hiệu sin thực theo hai cách. Cách thứ nhất là lấy thành phần thực của vectơ pha:</para>
+      <para id="id6064984"> xR(t)= Re[Acos(<media id="id8055404" alt=""><image src="graphics3.wmf" mime-type="image/wmf" height="18" width="18"/></media>t + O) + jAsin(<media id="id7712241" alt=""><image src="graphics4.wmf" mime-type="image/wmf" height="18" width="18"/></media>t + O)]</para>
+      <para id="id6065095">= Acos(<media id="id1170603529359" alt=""><image src="graphics5.wmf" mime-type="image/wmf" height="18" width="18"/></media>t + O)(1.24)</para>
+      <para id="id6065161">Thành phần thực này chính là hình chiếu của vectơ pha trên trục thực (hình 1.14).</para>
+      <para id="id6065168">Cách thứ hai là dùng hai vectơ pha quay ngược chiều nhau x(t) và x*(t) (hình 1.14). Do chiều quay ngược nhau nên một tần số là +<media id="id1170603445398" alt=""><image src="graphics6.wmf" mime-type="image/wmf" height="18" width="18"/></media> và tần số kia là –<media id="id1170604486853" alt=""><image src="graphics7.wmf" mime-type="image/wmf" height="18" width="18"/></media>. Tần số âm được đưa vào vì lý do thuận tiện toán học. x(t) và x*(t) là hai hàm liên hợp phức. Tín hiệu sin thực bây giờ là</para>
+    </section>
+    <section id="id-661705994195">
+      <title>2. Tần phổ một bên và hai bên</title>
+      <para id="id6126254">Hai cách biểu diễn toán học tín hiệu sin thực ở trên dẫn đến hai cách trình bày phổ tần số (tần phổ) (frequency spectrum) (hình 1.16): Phổ một bên (one-sided spectrum) và phổ hai bên (two-sided spectrum). Biểu thức (1.24) có biên độ đỉnh A và pha đầu O dẫn đến phổ một bên ở hình (1.16a). Phổ hai bên dựa vào biểu thức (1.25) nên có độ lớn được chia đều cho tần số dương f và âm –f, còn pha là O và –O (hình 1.16b). Để ý là đối với một tín hiệu thực (tín hiệu vật lý) thì phổ hai bên độ lớn là hàm chẵn (đối xứng qua trục đứng) và phổ pha là hàm lẻ (đối xứng qua gốc tọa độ).</para>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,19 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>LẤY MẪU TÍN HIỆU, ĐỊNH LÝ LẤY MẪU</title>
+  <metadata>
+  <md:content-id>m28601</md:content-id><md:title>LẤY MẪU TÍN HIỆU, ĐỊNH LÝ LẤY MẪU</md:title>
+  <md:abstract>Sự lấy mẫu tín hiệu đổi một tín hiệu liên tục thời gian thành tín hiệu rời rạc thời gian ( discrete time signal) mà còn thường được gọi tín hiệu số. Thực ra các mẫu còn phải qua khâu lượng tử hóa (quantization) và mã hoá nhị phân (binary encoding) mới thành tín hiệu số (có thể nhập vào và lưu trữ, xử lý ở máy tính) . Nhưng thường hai khâu sau được hiểu ngầm nên các mẫu được đồng hóa với tín hiệu số. Trên thực tế mạch chuyển đổi tương tự sang số (analog_to_digital converter viết tắt ADC hay A/D) thực hiện cả ba khâu lấy mẫu, lượng tử hóa và mã hóa nhị phân để cho ra tín hiệu số.</md:abstract>
+  <md:uuid>5d67cf8e-1c88-4406-98f0-ee75f5e5aa89</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-660599493331">
+      <title>1 Nguyên lý lấy mẫu</title>
+      <para id="id6386919">Hình 2.1 là tín hiệu tương tự x(t) và các mẫu <media id="id8873362" alt=""><image src="graphics1.wmf" mime-type="image/wmf" height="28" width="33"/></media> . Hình 2.2 trình bày nguyên lý lấy mẫu tín hiệu. Tín hiệu tương tự liên tục thời gian x(t) được nhân với tín hiệu lấy mẫu (còn gọi hàm lấy mẫu) s(t) để tạo các mẫu <media id="id1170359089408" alt=""><image src="graphics2.wmf" mime-type="image/wmf" height="28" width="33"/></media> (còn gọi tín hiệu đã lấy mẫu):</para>
+    </section>
+    <section id="id-00214969520134">
+      <title>2 Định lý lấy mẫu</title>
+      <para id="id5922147">Xem tín hiệu tương tự liên tục thời gian x(t) biểu diễn một thông tin nào đó ví dụ tiếng nói (hình 3.4a). Tín hiệu lấy mẫu s(t) là chuỗi xung hẹp t (mục A.7 ở phụ lục A), biên độ 1, xảy ra đều ở chu kỳ T (tần số fs=1/T). Hai tín hiệu x(t) và s(t) được nhân với nhau để tạo các mẫu <media id="id1170363037900" alt=""><image src="graphics3.wmf" mime-type="image/wmf" height="28" width="33"/></media>. Nên các mẫu là các xung có độ rộng t và có biên độ là biên độ tín hiệu tương tự lúc lấy mẫu. Thay vì gọi các mẫu là <media id="id2469171" alt=""><image src="graphics4.wmf" mime-type="image/wmf" height="28" width="33"/></media> người ta cũng gọi x(nT) với n là 0, 1, 2, 3 ..., -1, -2, -3, .... Thật ra sau này các mẫu sẽ được viết là x(n), và đây là tín hiệu số.</para>
+    </section>
+  </content>
+</document>

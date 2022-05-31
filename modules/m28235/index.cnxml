@@ -1,0 +1,24 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>BIỂU DIỄN TOÁN HỌC CỦA TÍN HIỆU</title>
+  <metadata>
+  <md:content-id>m28235</md:content-id><md:title>BIỂU DIỄN TOÁN HỌC CỦA TÍN HIỆU</md:title>
+  <md:abstract>XCX</md:abstract>
+  <md:uuid>36ed59c2-aabb-4c44-94f1-3e2d8f1d4e36</md:uuid>
+</metadata>
+
+<content>
+    <para id="id6308330">Mạch (hay hệ thống nói chung) là để xử lý tín hiệu theo nghĩa là để tạo tín hiệu ra khác với tín hiệu vào. Hai loại bài toán về mạch và tín hiệu là</para>
+    <list id="id6308341" list-type="bulleted">
+      <item>Bài toán phân tích : Biết mạch, biết tín hiệu vào, và phải tìm tín hiệu ra.</item>
+    </list>
+    <list id="id6308360" list-type="bulleted">
+      <item>Bài toán thiết kế : Biết tín hiệu vào, yêu cầu tín hiệu ra , và phải tìm mạch. </item>
+    </list>
+    <para id="id6277123">Hình 1.9 là một ví dụ. Mạch chỉ gồm một điện trở và một tụ điện, còn tín hiệu vào là dạng sóng vuông đối xứng có trị đỉnh–đỉnh 1V ở tần số 1kHz, ta phải tìm tín hiệu ra. Bài toán trông thực đơn giản nhưng phải biết lý thuyết mạch mới giải được. Cách tổng quát là phải toán học hóa mạch và tín hiệu theo nghĩa là phải biểu diễn mạch bằng một </para>
+    <section id="id-688526845316">
+      <title>1.Tín hiệu sin và vuông</title>
+      <para id="id6277150">Biểu diễn toán học của tín hiệu sin (hình 1.10) là</para>
+      <para id="id6277158">trong đó A là trị đỉnh (volt), <media id="id14292993" alt=""><image src="graphics1.wmf" mime-type="image/wmf" height="18" width="18"/></media> là tần số góc (rad/s), f = <media id="id12330551" alt=""><image src="graphics2.wmf" mime-type="image/wmf" height="18" width="18"/></media>/2 là tần số (Hz), T = 1/fO = 2/<media id="id6557563" alt=""><image src="graphics3.wmf" mime-type="image/wmf" height="18" width="18"/></media> (s) là chu kỳ, và O là pha ban đầu (rad), còn <media id="id17964649" alt=""><image src="graphics4.wmf" mime-type="image/wmf" height="18" width="18"/></media>t + O là pha tức thời (pha ban đầu là pha ở t = 0). Biểu thức trên chứa mọi đặc tính của dạng sin (trị đỉnh, trị hiệu dụng, trị trung bình, sự tuần hoàn, chu kỳ, tần số). Hầu hết các tín hiệu khác không có đặc tính này nghĩa là không thể mô tả tín hiệu chỉ bởi một biểu thức đơn, tín hiệu chữ nhật tuần hoàn thường gọi là sóng vuông(square wave), sau đây là ví dụ, xung lực đơn vị tiếp theo là một ví dụ khác.bậc (còn gọi tín hiệu nấc hay cấp) đơn vị bậc viết u(t). Tín hiệu bằng không (chưa hiện hữu) trong quá khứ (t&lt;0) và tăng tức khắc lên biên độ 1 ở gốc thời gian (t=0) và duy trì mãi mãi ở biên độ này, một cách toán học :</para>
+    </section>
+  </content>
+</document>
