@@ -1,3 +1,27 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" type="Course">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col10804</md:content-id>  <md:title>XỬ LÝ TÍN HIỆU SỐ</md:title>      <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>  <md:language>en</md:language>              <md:uuid>e2e9354d-1fa2-4632-85ff-ba0fbd154b56</md:uuid>
-<md:slug>xu-ly-tin-hieu-so</md:slug>
-</metadata>  <col:content>                        <col:subcollection>        <md:title>Đại cương về tín hiệu và nhiễu</md:title>                                <col:content>                    <col:module document="m28745"/>                            <col:module document="m28235"/>                            <col:module document="m28748"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Lấy mẫu và khôi phục tín hiệu </md:title>                                <col:content>                    <col:module document="m28601"/>                          </col:content>      </col:subcollection>      </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" type="Course" authors="Nguyen Huu Phuong">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10804</md:content-id>
+    <md:title>X&#x1EEC; L&#xDD; T&#xCD;N HI&#x1EC6;U S&#x1ED0;</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+    <md:language>en</md:language>
+    <md:uuid>e2e9354d-1fa2-4632-85ff-ba0fbd154b56</md:uuid>
+    <md:slug>xu-ly-tin-hieu-so</md:slug>
+  </metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>&#x110;&#x1EA1;i c&#x1B0;&#x1A1;ng v&#x1EC1; t&#xED;n hi&#x1EC7;u v&#xE0; nhi&#x1EC5;u</md:title>
+      <col:content>
+        <col:module document="m28745"/>
+        <col:module document="m28235"/>
+        <col:module document="m28748"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>L&#x1EA5;y m&#x1EAB;u v&#xE0; kh&#xF4;i ph&#x1EE5;c t&#xED;n hi&#x1EC7;u </md:title>
+      <col:content>
+        <col:module document="m28601"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>
